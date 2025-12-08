@@ -1,0 +1,5 @@
+pyqt6
+binance-connector
+matplotlib
+requests
+websockets

@@ -3,3 +3,4 @@ binance-connector
 matplotlib
 requests
 websockets
+pyqtgraph

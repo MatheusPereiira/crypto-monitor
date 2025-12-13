@@ -19,7 +19,7 @@
 # ⚠️ Aviso
 **Status do Projeto:** Em desenvolvimento.
 
-Aplicação desktop desenvolvida em **Python + PyQt6** para monitoramento em tempo real de **criptomoedas** utilizando **WebSockets da API oficial da Binance**.  
+Aplicação desktop desenvolvida em **Python + PyQt6** para monitoramento em tempo real de **criptomoedas**, utilizando **WebSockets da API oficial da Binance**.  
 O sistema exibe **preços atualizados**, **volume**, **variação percentual**, **máximas/mínimas**, e permite configurar **alertas personalizados**.
 
 ---
@@ -29,18 +29,34 @@ O sistema exibe **preços atualizados**, **volume**, **variação percentual**, 
 ### 📊 Monitoramento em tempo real
 - Preços atualizados em tempo real (via WebSocket)
 - Volume de mercado
-- Variação percentual 24h
+- Variação percentual (24h)
 - Máximas e mínimas do dia
 
 ### 🔔 Sistema de Alertas
 - Criação de alertas personalizados por preço
 - Notificações visuais
-- Histórico de alertas disparados
+- Lista de alertas ativos
 
 ### 📈 Dashboard interativo
-- Interface moderna criada com PyQt6
-- Gráficos e indicadores
-- Tabela dinâmica com preços
+- Interface moderna desenvolvida com PyQt6
+- Tabela dinâmica com dados de mercado
+- Atualização automática em tempo real
+
+---
+
+# 🖼️ Capturas de Tela
+
+## 🏠 Página Principal
+<p align="center">
+  <img src="screenshots/pagina_inicial.png" width="90%">
+</p>
+
+---
+
+## 🔔 Configuração de Alertas
+<p align="center">
+  <img src="screenshots/configurar_alerta.png" width="70%">
+</p>
 
 ---
 
@@ -97,13 +113,14 @@ python main.py
 
 ```bash
 projeto_crypto/
-├── core/               # Lógica principal e comunicação com API
-├── ui/                 # Telas do PyQt6
-├── resources/          # Arquivos JSON e dados
-├── banner.png          # Banner mostrado no README
+├── core/               # Lógica principal e comunicação com a API
+├── ui/                 # Telas e componentes PyQt6
+├── resources/          # Arquivos JSON e dados auxiliares
+├── screenshots/        # Capturas de tela usadas no README
+├── banner.png          # Banner do projeto
 ├── logo.png            # Logo do projeto
 ├── main.py             # Arquivo principal
-├── requirements.txt    # Dependências
+├── requirements.txt    # Dependências do projeto
 └── README.md
 ```
 

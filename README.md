@@ -2,7 +2,7 @@
   <img src="banner.png" width="100%">
 </p>
 
-<h1 align="center">💹 CRYPTO MONITOR</h1>
+<h1 align="center"> CRYPTO MONITOR</h1>
 
 <p align="center">
   <img src="logo.png" width="180">
@@ -16,7 +16,7 @@
 
 ---
 
-# ⚠️ Aviso
+#  Aviso
 **Status do Projeto:** Em desenvolvimento.
 
 Aplicação desktop desenvolvida em **Python + PyQt6** para monitoramento em tempo real de **criptomoedas**, utilizando **WebSockets da API oficial da Binance**.  
@@ -24,43 +24,43 @@ O sistema exibe **preços atualizados**, **volume**, **variação percentual**, 
 
 ---
 
-# ✅ Funcionalidades
+#  Funcionalidades
 
-### 📊 Monitoramento em tempo real
+###  Monitoramento em tempo real
 - Preços atualizados em tempo real (via WebSocket)
 - Volume de mercado
 - Variação percentual (24h)
 - Máximas e mínimas do dia
 
-### 🔔 Sistema de Alertas
+###  Sistema de Alertas
 - Criação de alertas personalizados por preço
 - Notificações visuais
 - Lista de alertas ativos
 
-### 📈 Dashboard interativo
+###  Dashboard interativo
 - Interface moderna desenvolvida com PyQt6
 - Tabela dinâmica com dados de mercado
 - Atualização automática em tempo real
 
 ---
 
-# 🖼️ Capturas de Tela
+#  Capturas de Tela
 
-## 🏠 Página Principal
+##  Página Principal
 <p align="center">
   <img src="screenshots/pagina_inicial.png" width="90%">
 </p>
 
 ---
 
-## 🔔 Configuração de Alertas
+##  Configuração de Alertas
 <p align="center">
   <img src="screenshots/configurar_alerta.png" width="70%">
 </p>
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+#  Tecnologias Utilizadas
 
 | Categoria | Tecnologia |
 |----------|------------|
@@ -72,15 +72,15 @@ O sistema exibe **preços atualizados**, **volume**, **variação percentual**, 
 
 ---
 
-# 🚀 Como executar o projeto
+#  Como executar o projeto
 
-## 1️⃣ Clone o repositório
+##  Clone o repositório
 ```bash
 git clone https://github.com/MatheusPereiira/projeto-crypto-monitor.git
 cd projeto-crypto-monitor
 ```
 
-## 2️⃣ Crie um ambiente virtual
+##  Crie um ambiente virtual
 ```bash
 python -m venv venv
 ```
@@ -97,19 +97,19 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-## 3️⃣ Instale as dependências
+##  Instale as dependências
 ```bash
 pip install -r requirements.txt
 ```
 
-## 4️⃣ Execute o aplicativo
+##  Execute o aplicativo
 ```bash
 python main.py
 ```
 
 ---
 
-# 📂 Estrutura do Projeto
+#  Estrutura do Projeto
 
 ```bash
 projeto_crypto/
@@ -126,16 +126,16 @@ projeto_crypto/
 
 ---
 
-# 📄 Licença
+#  Licença
 Este projeto está licenciado sob a **MIT License**.  
 Você pode usar, modificar e distribuir livremente.
 
 ---
 
-# 👤 Autor
+#  Autor
 **Matheus Pereira**  
-🔥 Apaixonado por Python, automação e desenvolvimento desktop.  
-📬 GitHub: https://github.com/MatheusPereiira  
+ - Apaixonado por Python, automação e desenvolvimento desktop.  
+ - GitHub: https://github.com/MatheusPereiira  
 
 ---
 
